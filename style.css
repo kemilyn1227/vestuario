@@ -18,7 +18,7 @@ height: 100vh;
 
 h1{
 letter-spacing: 14px;
-font-size: 40px;
+font-size: 38px;
 line-height: 1em;
 color: cadetblue;
 width: 41%; 
@@ -37,7 +37,7 @@ h2{
 form{
 display: flex;
 justify-content: center;
-padding-top: 8%;
+padding-top: 2%;
 }
 
 span{
@@ -103,16 +103,24 @@ p{
     color:rgb(58, 56, 56);
     line-height: 1.5em;
     text-indent: 10px;
-    padding-bottom: 10px;
-    padding-left: 8px;
     width: 95vw;
     font-weight: bold;
     
 }
 
+footer{
+    padding-top: 2px;
+}
+
+
+
 @media screen and (min-width:768px){
   main{
     display: block;
+  }
+
+  form{
+    padding-top: 9%;
   }
 
   #imgPrincipal{
@@ -121,6 +129,15 @@ p{
     height: 100vh;
     background-image: url(images/imagem2-mobile.jpg);
   }
+
+  footer{
+
+    padding-top: 6em;
+ 
+     
+  }
+
+
  
 }
 
